@@ -1,89 +1,12 @@
 <resources>
     <string name="app_name">Linterna Ripense</string>
+    <string name="bandera">Bandera de Rivas</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-    <string name="letra">Yo soy feliz viviendo en Rivas-Vaciamadrid \n \n \n \n \n \n
-
-En los 80, yo vi un anuncio \n
-A 15 minutos del centro de Madrid hay una joven ciudad  \n \n
-
-Aun era pequeña, mas fue creciendo  \n
-Ya hay servicios de todo y es un bello lugar \n
-que brilla en la comunidad  \n \n
-
-Yo soy feliz viviendo en Rivas-Vaciamadrid  \n
-Por el Jarama encontré, la aldea gala que soñé  \n \n
-
-Vente a vivir aquí \n \n
-
-Yo soy feliz viviendo en Rivas-Vaciamadrid  \n
-Vente conmigo a disfrutar, hacer deporte y respirar  \n \n \n \n \n \n
-
-
-Barrio de la Luna, Rivas Futura, Pablo Iglesias, Covibar \n
-y Rivas Pueblo, Cristo Rivas y Urbanizaciones  \n
-Parque del Sureste, Laguna del Campillo  \n
-Afición deportiva en una ciudad joven \n
-¡Y qué bien que vivimos aquí! \n \n
-
-Yo soy feliz viviendo en Rivas-Vaciamadrid  \n
-Por el Jarama yo ví, la aldea gala de Asterix  \n \n
-
-Vente a vivir aquí \n \n
-
-Yo soy feliz viviendo en Rivas-Vaciamadrid  \n
-Vente conmigo a disfrutar, hacer deporte y respirar  \n \n
-
-Es una joven ciudad \n \n
-
-*silbidos* \n \n
-
-Rivas-Vaciamadrid \n \n
-
-*silbidos* \n \n
-
-Es una joven ciudad \n \n
-
-Yo soy feliz viviendo en Rivas-Vaciamadrid  \n
-Por el Jarama encontré, la aldea gala que soñé  \n \n
-
-Vente a vivir aquí \n \n
-
-Yo soy feliz viviendo en Rivas-Vaciamadrid \n
-Vente conmigo a disfrutar, hacer deporte y respirar  \n \n
-
-Es una joven ciudad \n \n
-
-Yo soy feliz viviendo en Rivas-Vaciamadrid  \n \n
-         \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
-        \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
-        \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
-        \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
-        \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
-        \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
-        \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
-        \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
-        \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
-        \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
-        \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
-        \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
-        \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
-        \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
-        \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
-        \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
-        \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
-        \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
-        \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
-        \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
-        \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
-        \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
-
-
-    </string>
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris

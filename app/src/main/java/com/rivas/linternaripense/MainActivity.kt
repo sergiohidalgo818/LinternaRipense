@@ -12,19 +12,18 @@ import android.view.Menu
 import android.view.MenuItem
 import com.rivas.linternaripense.databinding.ActivityMainBinding
 
-import android.content.Context
-import android.hardware.camera2.CameraManager
-import androidx.annotation.RequiresApi
-import android.os.Build
-import android.view.View
+
+import android.content.Context;
+import android.hardware.camera2.CameraAccessException;
+import android.hardware.camera2.CameraManager;
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
 
-    private lateinit var cameraM :CameraManager
-    private var isFlash = false
+    private var cameraManager: CameraManager? = null
+    private var getCameraID: String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         WindowCompat.setDecorFitsSystemWindows(window, false)
@@ -34,7 +33,19 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        cameraM = getSystemService(Context.CAMERA_SERVICE) as CameraManager
+        // cameraManager to interact with camera devices
+        cameraManager = getSystemService(Context.CAMERA_SERVICE) as CameraManager
+
+        // Exception is handled, because to check whether
+        // the camera resource is being used by another
+        // service or not.
+        try {
+            // O means back camera unit,
+            // 1 means front camera unit
+            getCameraID = cameraManager!!.cameraIdList[0]
+        } catch (e: CameraAccessException) {
+            e.printStackTrace()
+        }
 
     }
 
@@ -58,28 +69,5 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         return navController.navigateUp(appBarConfiguration)
                 || super.onSupportNavigateUp()
-    }
-
-    @RequiresApi(Build.VERSION_CODES.M)
-    public fun flashLightsetOff() {
-        if (isFlash){
-            val cameraListId = cameraM.cameraIdList[0]
-            cameraM.setTorchMode(cameraListId,false)
-            false
-        }
-
-    }
-        @RequiresApi(Build.VERSION_CODES.M)
-    public fun flashLightOnRoOff() {
-        isFlash = if (!isFlash){
-            val cameraListId = cameraM.cameraIdList[0]
-            cameraM.setTorchMode(cameraListId,true)
-            true
-        } else{
-            val cameraListId = cameraM.cameraIdList[0]
-            cameraM.setTorchMode(cameraListId,false)
-            false
-        }
-
     }
 }
