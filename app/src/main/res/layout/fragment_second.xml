@@ -3,24 +3,67 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/click_bandera2"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:addStatesFromChildren="false"
     android:clickable="true"
+
+    android:clipToPadding="false"
     android:focusable="true"
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintStart_toStartOf="parent"
-    tools:context=".SecondFragment">
+    tools:context=".SecondFragment"
+    tools:ignore="DuplicateSpeakableTextCheck,ExtraText">
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:background="#fc0c0c"
         android:contentDescription="@string/bandera"
+        android:scaleType="centerCrop"
         android:src="@drawable/bandera_rivas_indepe"
-        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <RelativeLayout
+        android:id="@+id/buttonlay"
+        android:layout_width="88dp"
+        android:layout_height="82dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" >
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:contentDescription="@string/fondo2"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_play"
+            tools:ignore="ImageContrastCheck" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="10000dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center|top"
+        android:shadowColor="#000000"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.9"
+        android:text="@string/himno_rivas"
+        android:textColor="#FFFF"
+        android:textSize="32sp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:ignore="MissingConstraints,TextContrastCheck"
+        tools:layout_editor_absoluteX="-48dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

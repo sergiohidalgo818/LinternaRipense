@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "15476507201",
+    "project_id": "linterna-ripense",
+    "storage_bucket": "linterna-ripense.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15476507201:android:b0e75348a29c2c01743cc0",
+        "android_client_info": {
+          "package_name": "seregio.rivas.linternaripense"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiB5Zlk5ac6MZnAslfWxnm-M3CBx8xaYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

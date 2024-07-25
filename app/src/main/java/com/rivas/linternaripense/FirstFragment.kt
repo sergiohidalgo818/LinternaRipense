@@ -27,6 +27,7 @@ class FirstFragment : Fragment() {
     ): View? {
 
 
+        (activity as MainActivity).toggleFlashLightOff()
 
         _binding = FragmentFirstBinding.inflate(inflater, container, false)
 
